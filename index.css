@@ -1,0 +1,46 @@
+html {
+	color: gold;
+	background-color: black;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+body {
+
+}
+a {
+	font-family: Helvetica;
+}
+.caption {
+	display:block;
+	font-family: 'Playfair Display', serif;
+	font-size: 12px;
+	font-style: italic;
+	line-height: 14px;
+	margin-left: 20px;
+	padding: 10px;
+	position: relative;
+	top: 80%;
+	text-align: center;
+}
+.linkImage {
+	background-image:url("https://media.licdn.com/dms/image/C4E16AQGM4DUZwmUMBA/profile-displaybackgroundimage-shrink_350_1400/0?e=1540425600&v=beta&t=rW9pjdEea7mOdwRk8qpAWvkQNb1Fgreip0Mqs_awSrI");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    padding-top: 0;
+}
+.moonLinks {
+	color: gold;
+}
+.navigation {
+}
+.oblique {
+	font-style: oblique;
+}
+p {
+	font-family: Verdana;
+}
+table {
+	border: 2px solid black;
+	font-size: "35px";
+}

@@ -3,19 +3,32 @@ project-folder/
 |-- about.html
 |-- contact.html
 |-- index.html
+|-- index.css
 -->
 
 <!DOCTYPE html>
 
 <html>
 	<head>
-		<title>Bridge</title>
-		<link href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400" rel="stylesheet"> <!--title is displayed in the tab of this page-->
+		<title>Bridge</title> <!--title is displayed in the tab of this page-->
+		<link href="./index.css" type="text/css" rel="stylesheet">
+		<!--
+			href is the link
+			type is the type of document
+			rel is relationship between css and html
+		-->
 	</head>
 	<body>
-		<a href="#pic">Go to Picture</a> <!-- Use # to link to places in the same page -->
-		<br>
-		<a href="#links">Go to Links</a>
+		<div class="linkImage">		
+			<p class="caption">	
+				<a class="moonLinks" href="http://www.brandonbridges.com">Brandon Bridges open in same page</a>
+				<br>
+				<a class="moonLinks" href="http://www.brandonbridges.com" target="_blank">Brandon Bridges open in new tab (modern browser) or window (old browser)</a>
+			</p>	
+		</div>		
+		<a href="#pic">Picture</a> <!-- Use # to link to places in the same page -->
+		|
+		<a href="#links">Links</a>
 		<br>
 		<br>
 		<div id="pic"> <!-- Use id to access this tag in another part of the page -->
@@ -24,20 +37,32 @@ project-folder/
 				<img src="https://media.licdn.com/dms/image/C4E03AQEtLgCBk80CjQ/profile-displayphoto-shrink_200_200/0?e=1540425600&v=beta&t=1I3uk_QAf1I83dJ3QTfPNq_e1Osg3u9nP_mLoou3hDE" width="100" height="100"/>
 			</a>
 		</div>
-		<div id="links">
-			<br>
-			<a href="http://www.brandonbridges.com">Brandon Bridges open in same page</a>
-			<br>
-			<a href="http://www.brandonbridges.com" target="_blank">Brandon Bridges open in new tab (modern browser) or window (old browser)</a>
-			<br>
-			<a href="./contact.html">Contact.html open in same page</a>
-		</div>
+		<p class="oblique">
+			This is everything you need to know about Brandon Bridges.
+		</p>
+		<br>
+		<a href="./contact.html">Contact.html open in same page</a>
+		<br>
 		<table>
-			<tr>
-				<td>lorem</td>
-				<td>ipsum</td>
-				<td>adagio</td>
-			</tr>
+			<thead>
+				<tr>
+					<th>Column 1</th>
+					<th>Column 2</th>
+					<th>Column 3</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>lorem</td>
+					<td>ipsum</td>
+					<td>adagio</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<td>Foot1</td>
+				<td>Foot2</td>
+				<td>Foot3</td>
+			</tfoot>
 		</table>
 	</body>
 </html>
