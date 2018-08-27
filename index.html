@@ -17,18 +17,22 @@ project-folder/
 			type is the type of document
 			rel is relationship between css and html
 		-->
+		<script src="jquery.js"></script>
 	</head>
 	<body>
+		<script src = "index.js"></script>
 		<div class="linkImage">		
 			<p class="caption">	
 				<a class="moonLinks" href="http://www.brandonbridges.com">Brandon Bridges open in same page</a>
 				<br>
 				<a class="moonLinks" href="http://www.brandonbridges.com" target="_blank">Brandon Bridges open in new tab (modern browser) or window (old browser)</a>
 			</p>	
+		</div>
+		<div class="navigation">
+			<a href="#pic">Picture</a> <!-- Use # to link to places in the same page -->
+			|
+			<a href="#links">Links</a>
 		</div>		
-		<a href="#pic">Picture</a> <!-- Use # to link to places in the same page -->
-		|
-		<a href="#links">Links</a>
 		<br>
 		<br>
 		<div id="pic"> <!-- Use id to access this tag in another part of the page -->

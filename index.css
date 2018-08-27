@@ -1,8 +1,7 @@
 html {
 	color: gold;
-	background-color: black;
-	margin: 0 !important;
-	padding: 0 !important;
+	background-color: #000033;
+	border: 3px solid coral;
 }
 body {
 
@@ -36,9 +35,21 @@ a {
 }
 .oblique {
 	font-style: oblique;
+	display: inline;
+}
+.oblique:hover {
+	background: #ff0033;
+	color: #660000;
+	position: relative;
+	left: 100px;
+	display:inline;
 }
 p {
 	font-family: Verdana;
+}
+#pic {
+	position: relative;
+	left: 180px;
 }
 table {
 	border: 2px solid black;
